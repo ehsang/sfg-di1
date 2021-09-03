@@ -16,7 +16,7 @@ public class SfgDiApplication {
 
 
 		MyController myController = (MyController) ctx.getBean("myController");
-		//String greeting = myController.sayHello(); commit only
+		//String greeting = myController.sayHello(); Pull request test, changes in github source
 
         System.out.println("-------- From primary bean");
 		System.out.println(myController.sayHello());
