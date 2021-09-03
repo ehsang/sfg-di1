@@ -16,7 +16,7 @@ public class SfgDiApplication {
 
 
 		MyController myController = (MyController) ctx.getBean("myController");
-		//String greeting = myController.sayHello(); push push test testing update (pull) for getting changes done on the github site in local repo (intellij)
+		//String greeting = myController.sayHello(); commit only
 
         System.out.println("-------- From primary bean");
 		System.out.println(myController.sayHello());
